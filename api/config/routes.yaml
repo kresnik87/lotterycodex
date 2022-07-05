@@ -1,0 +1,8 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+scrap_Service:
+  path: '/scrap'
+  methods: [ 'GET' ]
+  defaults:
+    _controller: App\Controller\ScrapController::scrapService
